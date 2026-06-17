@@ -1,0 +1,21 @@
+junction_name,current_week_avg,predicted_next_week_avg,growth_percent,trend
+BTP051 - Safina Plaza Junction,84.71,31.0,-63.40455672293708,Decreasing
+BTP082 - KR Market Junction,68.71,46.43,-32.42613884441857,Decreasing
+BTP040 - Elite Junction,87.29,110.0,26.016725856340923,Increasing
+BTP044 - Sagar Theatre Junction,79.0,120.71,52.79746835443038,Increasing
+BTP211 - Central Street Junction,14.17,0.0,-100.0,Decreasing
+BTP058 - Subbanna Junction,56.43,79.14,40.24455077086656,Increasing
+BTP027 - Modi Bridge Junction,32.71,35.14,7.428920819321308,Stable
+BTP020 - Hosahalli Metro Station,23.67,28.58,20.74355724545837,Increasing
+BTP057 - Anand Rao Junction,31.57,25.71,-18.561925878999048,Decreasing
+"BTP080 - NR Road, SP Road Junction",22.43,20.0,-10.833704859563085,Stable
+BTP045 - Danvanthri Road Junction,22.71,28.14,23.910171730515188,Increasing
+"BTP001 - 10th Cross, Dr. Rajkumar Road",26.29,40.43,53.78470901483454,Increasing
+"BTP083 - AS Char Street, Mysore Road",14.83,22.24,49.9662845583277,Increasing
+BTP032 - Windsor Circle,5.25,0.0,-100.0,Decreasing
+"BTP016 - 5th Main Road, RPC Layout",9.5,12.0,26.31578947368421,Increasing
+"BTP070 - Cholurpalya Junction, Magadi Road",12.17,13.62,11.914543960558746,Stable
+BTP042 - Minsk Square Junction (CTO),8.5,0.0,-100.0,Decreasing
+BTP038 - Mysore Bank Junction,9.33,6.67,-28.510182207931408,Decreasing
+BTP023 - Mahalaxmi Layout Entrance,23.43,35.29,50.61886470337175,Increasing
+BTP108 - Tagore Park Junction,22.86,27.57,20.60367454068242,Increasing
