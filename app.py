@@ -112,7 +112,7 @@ st.dataframe(
 st.header("📈 Emerging Hotspots")
 
 future = pd.read_csv(
-    "future_hotspot_predictions.csv"
+    "data/future_hotspot_predictions.csv"
 )
 
 st.dataframe(
