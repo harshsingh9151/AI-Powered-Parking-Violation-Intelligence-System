@@ -130,11 +130,11 @@ st.dataframe(
 st.header("🗺️ Cluster Analysis Map")
 
 if os.path.exists("cluster_map.html"):
-    with open(
-        "cluster_map.html",
-        "r",
-        encoding="utf-8"
-    ) as f:
+   with open(
+    "maps/cluster_map.html",
+    "r",
+    encoding="utf-8"
+) as f:
         html = f.read()
 
     st.components.v1.html(
