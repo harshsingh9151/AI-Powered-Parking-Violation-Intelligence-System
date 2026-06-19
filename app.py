@@ -20,13 +20,8 @@ layout="wide"
 
 # =====================================
 
-risk = pd.read_csv(
-"data/junction_risk_summary.csv"
-)
-
-future = pd.read_csv(
-"data/future_hotspot_predictions.csv"
-)
+risk = pd.read_csv("data/junction_risk_summary.csv")
+future = pd.read_csv("data/future_hotspot_predictions.csv")
 
 # =====================================
 
@@ -59,32 +54,22 @@ if page == "Overview":
 st.title("🚦 AI-Powered Parking Violation Intelligence System")
 
 st.markdown(
-    """
-    Intelligent Traffic Enforcement & Parking Violation Analytics Platform
-    """
+    "### Intelligent Traffic Enforcement & Parking Analytics Platform"
 )
 
 col1, col2, col3, col4 = st.columns(4)
 
-col1.metric(
-    "Total Violations",
-    "298,450"
-)
+with col1:
+    st.metric("Total Violations", "298,450")
 
-col2.metric(
-    "Locations",
-    "10,942"
-)
+with col2:
+    st.metric("Locations", "10,942")
 
-col3.metric(
-    "Junctions",
-    "168"
-)
+with col3:
+    st.metric("Junctions", "168")
 
-col4.metric(
-    "Police Stations",
-    "54"
-)
+with col4:
+    st.metric("Police Stations", "54")
 
 st.divider()
 
@@ -132,7 +117,7 @@ if os.path.exists("assets/risk_distribution.png"):
         use_container_width=True
     )
 
-st.subheader("Top Risk Junctions")
+st.subheader("Risk Scoring Results")
 
 st.dataframe(
     risk.sort_values(
@@ -188,7 +173,7 @@ if os.path.exists("assets/resource_allocation.png"):
         use_container_width=True
     )
 
-st.subheader("Recommended Enforcement Strategy")
+st.subheader("Recommended Enforcement Actions")
 
 st.dataframe(
     risk[
@@ -233,9 +218,7 @@ if os.path.exists("maps/cluster_map.html"):
     )
 
 else:
-    st.warning(
-        "cluster_map.html not found"
-    )
+    st.warning("cluster_map.html not found")
 
 st.info(
     """
