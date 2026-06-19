@@ -94,7 +94,7 @@ else:
 st.header("📋 Junction Risk Summary")
 
 risk = pd.read_csv(
-    "junction_risk_summary.csv"
+    "data/junction_risk_summary.csv"
 )
 
 st.dataframe(
