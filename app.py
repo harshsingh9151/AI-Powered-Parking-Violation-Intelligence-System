@@ -129,12 +129,13 @@ st.dataframe(
 
 st.header("🗺️ Cluster Analysis Map")
 
-if os.path.exists("cluster_map.html"):
-   with open(
-    "maps/cluster_map.html",
-    "r",
-    encoding="utf-8"
-) as f:
+if os.path.exists("maps/cluster_map.html"):
+
+    with open(
+        "maps/cluster_map.html",
+        "r",
+        encoding="utf-8"
+    ) as f:
         html = f.read()
 
     st.components.v1.html(
@@ -142,5 +143,6 @@ if os.path.exists("cluster_map.html"):
         height=600,
         scrolling=True
     )
+
 else:
     st.warning("cluster_map.html not found")
